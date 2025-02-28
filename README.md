@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 ### 2. Instalar o ChromeDriver
 
-Verifique a versão do chromedriver antes de instalá-la, pois ela deve ser a mesma do seu navegador. Para verificar a versão do seu chrome pesquise clique [aqui](chrome://settings/help). E para instalar a o chromedriver clique [aqui](https://googlechromelabs.github.io/chrome-for-testing/). Coloque o arquivo chromedriver.exe (no Windows) ou chromedriver (no Linux/macOS) no diretório `C:/webdriver/`, ou ajuste o caminho no código como quiser. Copie o caminho para o arquivo chromedriver e depois altere no código na variável indicada.
+Verifique a versão do chromedriver antes de instalá-la, pois ela deve ser a mesma do seu navegador. Para verificar a versão do seu chrome pesquise `chrome://settings/help`. E para instalar a o chromedriver clique [aqui](https://googlechromelabs.github.io/chrome-for-testing/). Coloque o arquivo chromedriver.exe (no Windows) ou chromedriver (no Linux/macOS) no diretório `C:/webdriver/`, ou ajuste o caminho no código como quiser. Copie o caminho para o arquivo chromedriver e depois altere no código na variável indicada.
 
 ### 3. Executar os testes
 

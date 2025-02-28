@@ -8,7 +8,7 @@ driver_path = "C:/webdriver/chromedriver.exe"
 service = Service(driver_path)
 driver = webdriver.Chrome(service=service)
 
-# URL da aplicação (substituir pela real)
+# URL da aplicação
 URL_LOGIN = "http://localhost:8000/accounts/login/"
 
 def test_login_sucesso():
@@ -60,5 +60,5 @@ test_login_campos_vazios()
 test_link_esqueci_senha()
 test_link_cadastro()
 
-# Fechar o navegador após os testes
+# Fecha o navegador após os testes
 driver.quit()
